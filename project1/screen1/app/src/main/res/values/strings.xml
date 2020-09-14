@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Project 1 Screen 1</string>
+    <string name="quiz_title">Ten Question Flag Quiz</string>
+    <string name="question_label_1">Question </string>
+    <string name="question_label_2"> of </string>
+    <string name="quiz_instructions">Guess the Country</string>
 </resources>
