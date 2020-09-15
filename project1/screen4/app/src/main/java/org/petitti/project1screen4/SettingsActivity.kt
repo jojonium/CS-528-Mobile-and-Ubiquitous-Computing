@@ -7,6 +7,7 @@ import androidx.core.content.res.ResourcesCompat
 import androidx.preference.PreferenceFragmentCompat
 
 class SettingsActivity : AppCompatActivity() {
+    var dialPad = true
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

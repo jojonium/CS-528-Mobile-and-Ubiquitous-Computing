@@ -17,4 +17,19 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="menu_name">Sound</string>
+    <string name="slider_description">An icon showing controls for sound mixing</string>
+
+    <string name="volumes">Volumes</string>
+    <string name="silent_mode">Silent mode</string>
+
+    <string name="ringtone_header">Ringtone &amp; Notifications</string>
+    <string name="ringtone">Phone ringtone</string>
+    <string name="default_notification">Default notification</string>
+    <string name="vibrate">Vibrate and ring</string>
+
+    <string name="system_header">System</string>
+    <string name="dial_pad">Dial pad touch tones</string>
+
 </resources>

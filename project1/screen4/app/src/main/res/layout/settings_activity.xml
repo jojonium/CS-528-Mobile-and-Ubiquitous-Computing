@@ -9,7 +9,7 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="56dp"
-        android:background="?attr/colorPrimary"
+        android:background="#6200EE"
         android:minHeight="?attr/actionBarSize"
         android:textAlignment="textStart"
         android:theme="?attr/actionBarTheme"
@@ -20,9 +20,10 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:title="@string/app_name"
+        app:title="@string/menu_name"
         app:titleMargin="4dp"
         app:titleMarginStart="60dp"
+        app:titleTextColor="#FFFFFF"
         tools:layout_conversion_absoluteHeight="56dp" />
 
     <FrameLayout
@@ -44,6 +45,7 @@
         android:layout_height="50dp"
         android:layout_marginStart="4dp"
         android:layout_marginTop="4dp"
+        android:contentDescription="@string/slider_description"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/sound_sliders" />

@@ -1,35 +1,36 @@
 <PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditTextPreference
+        app:key="volumes"
+        app:title="@string/volumes" />
 
-    <PreferenceCategory app:title="@string/messages_header">
+    <EditTextPreference
+        app:key="silentMode"
+        app:title="@string/silent_mode"
+        app:summary="Off" />
+
+
+    <PreferenceCategory app:title="@string/ringtone_header">
 
         <EditTextPreference
-            app:key="signature"
-            app:title="@string/signature_title"
-            app:useSimpleSummaryProvider="true" />
+            app:key="ringtone"
+            app:title="@string/ringtone"
+            app:summary="Silent" />
 
-        <ListPreference
-            app:defaultValue="reply"
-            app:entries="@array/reply_entries"
-            app:entryValues="@array/reply_values"
-            app:key="reply"
-            app:title="@string/reply_title"
-            app:useSimpleSummaryProvider="true" />
+        <EditTextPreference
+            app:key="default_notification"
+            app:title="@string/default_notification"
+            app:summary="Silent" />
 
+        <SwitchPreferenceCompat
+            app:key="vibrate"
+            app:title="@string/vibrate" />
     </PreferenceCategory>
 
-    <PreferenceCategory app:title="@string/sync_header">
-
+    <PreferenceCategory app:title="@string/system_header">
         <SwitchPreferenceCompat
-            app:key="sync"
-            app:title="@string/sync_title" />
-
-        <SwitchPreferenceCompat
-            app:dependency="sync"
-            app:key="attachment"
-            app:summaryOff="@string/attachment_summary_off"
-            app:summaryOn="@string/attachment_summary_on"
-            app:title="@string/attachment_title" />
-
+            app:defaultValue="true"
+            app:key="dial_pad"
+            app:title="@string/dial_pad" />
     </PreferenceCategory>
 
 </PreferenceScreen>
