@@ -4,4 +4,13 @@
     <string name="question_label_1">Question </string>
     <string name="question_label_2"> of </string>
     <string name="quiz_instructions">Guess the Country</string>
+    <string name="flag_description">A flag with blue and white horizontal stripes and a triangular seal in the middle</string>
+    <string name="country_1">Puerto Rico</string>
+    <string name="country_2">Grenada</string>
+    <string name="country_3">Nicaragua</string>
+    <string name="country_4">Bahamas</string>
+    <string name="country_5">Guatemala</string>
+    <string name="country_6">Aruba</string>
+    <string name="bottom_option_1">Select Number of Choices</string>
+    <string name="bottom_option_2">Select Regions</string>
 </resources>

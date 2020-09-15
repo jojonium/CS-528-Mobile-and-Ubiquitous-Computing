@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:background="#FBF7C9"
+        android:background="@color/colorBackground"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -19,7 +19,8 @@
         <TextView
             android:id="@+id/quizTitle"
             android:layout_width="match_parent"
-            android:layout_height="73dp"
+            android:layout_height="69dp"
+            android:gravity="center_horizontal|center_vertical"
             android:text="@string/quiz_title"
             android:textAlignment="center"
             android:textColor="#000000"
@@ -28,8 +29,118 @@
         <TextView
             android:id="@+id/questionNumberDisplay"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textAlignment="center"
+            android:layout_height="51dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text=""
+            android:textColor="#222222"
             android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/flag_description"
+            app:srcCompat="@drawable/nicaragua_flag" />
+
+        <TextView
+            android:id="@+id/quizInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/quiz_instructions"
+            android:textColor="#222222"
+            android:textSize="24sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/country_1"
+                    style="@android:style/Widget.Material.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/country_1" />
+
+                <Button
+                    android:id="@+id/country_2"
+                    style="@android:style/Widget.Material.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/country_2" />
+
+                <Button
+                    android:id="@+id/country_3"
+                    style="@android:style/Widget.Material.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/country_3" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/country_4"
+                    style="@android:style/Widget.Material.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/country_4" />
+
+                <Button
+                    android:id="@+id/country_5"
+                    style="@android:style/Widget.Material.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/country_5" />
+
+                <Button
+                    android:id="@+id/country_6"
+                    style="@android:style/Widget.Material.Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/country_6" />
+            </TableRow>
+
+        </TableLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bottom_option_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#1A1B12"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/bottom_option_1"
+                android:textColor="#DDDDDD"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/bottom_option_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#F7C224"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/bottom_option_2"
+                android:textColor="#222222"
+                android:textSize="18sp" />
+        </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
