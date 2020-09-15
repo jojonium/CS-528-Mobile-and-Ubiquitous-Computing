@@ -6,13 +6,86 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="282dp">
+
+            <ImageView
+                android:id="@+id/penguinImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/penguin_description"
+                app:srcCompat="@drawable/penguin" />
+
+            <ImageView
+                android:id="@+id/sealImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/seal_description"
+                app:srcCompat="@drawable/seal" />
+
+            <ImageView
+                android:id="@+id/orcaImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:contentDescription="@string/orca_description"
+                app:srcCompat="@drawable/orca" />
+        </TableRow>
+
+        <LinearLayout
+            android:id="@+id/textViewContainer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:background="#4F81BC"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/pic1Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:height="40dp"
+                android:background="#C7D9F1"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="TextView"
+                android:textColor="#222222" />
+
+            <TextView
+                android:id="@+id/pic2Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:height="40dp"
+                android:background="#C7D9F1"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="TextView"
+                android:textColor="#222222" />
+
+            <TextView
+                android:id="@+id/pic3Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:height="40dp"
+                android:background="#C7D9F1"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="TextView"
+                android:textColor="#222222" />
+        </LinearLayout>
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Project 1 Screen 2</string>
+    <string name="text_prefix">You have pressed</string>
+    <string name="text_suffix">times</string>
+    <string name="penguin_description">A photo of a penguin</string>
+    <string name="seal_description">A photo of a seal</string>
+    <string name="orca_description">A photo of an orca</string>
 </resources>
