@@ -1,0 +1,3 @@
+[submodule "project2"]
+	path = project2
+	url = https://github.com/jojonium/cs-528-project-2.git
