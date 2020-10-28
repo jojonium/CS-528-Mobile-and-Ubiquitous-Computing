@@ -1,7 +1,7 @@
 # CS 528: Mobile and Ubiquitous Computing
 
 Coursework and projects for the WPI class CS 528: Mobile and Ubiquitous
-Computing
+Computing, taught by Professor Emmanuel Agu in fall 2020.
 
 ## Project 0
 
@@ -18,3 +18,8 @@ projects that intend to replicate a UI mockup in Android Studio.
 This project expands an existing app by adding functionality to its user
 interface and enabling face recognition and OCR using Google's APIs. Users can
 take pictures that the app will scan for recognized faces and text.
+
+## Project 3
+
+Project 3 involves sensor programming, activity recognition, geofencing, and
+Google Maps in a mashup of various features unique to mobile computing. 
