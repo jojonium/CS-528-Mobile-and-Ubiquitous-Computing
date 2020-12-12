@@ -23,3 +23,15 @@ take pictures that the app will scan for recognized faces and text.
 
 Project 3 involves sensor programming, activity recognition, geofencing, and
 Google Maps in a mashup of various features unique to mobile computing. 
+
+## Final Project - COVID Traveler
+
+We developed an app that leverages location services, a convolutional neural
+network for face mask detection, and ubiquitous computing to provide users with
+reliable, up to date information about COVID-19 in their environment.
+
+The app provides information about the current COVID threat-level in the user's
+town/city, sourced from the state of Massachusetts website. It also uses safety
+data for individual stores and places crowdsourced from users. Users can submit
+pictures of themselves or others to our server, and the server uses machine
+learning to detect whether the subjects are properly wearing face masks.

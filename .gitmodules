@@ -4,3 +4,6 @@
 [submodule "project3"]
 	path = project3
 	url = https://github.com/jojonium/cs-528-project-3.git
+[submodule "final-project"]
+	path = final-project
+	url = https://github.com/jojonium/cs-528-final-project.git
